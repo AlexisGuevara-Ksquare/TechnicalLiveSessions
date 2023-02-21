@@ -4,30 +4,18 @@ body {
     background-color: whitesmoke;
 }
 
-#main {
+header {
     background-color: rgb(52, 52, 52);
     border-radius: 12px;
 }
 
-#title, #nameArtist {
+.encabezado {
     text-align: center;
     color: white;
 }
 
-#description {
-    text-align: center;
-}
-
-#img-div {
-    background-color: black;
-    padding: 20px;
-}
-
 img {
     max-width: 35%;
-}
-
-#image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,17 +26,22 @@ img {
     font-size: 14px;
 }
 
-#subtitle, #subtitle2 {
-    font-size: 20px;
+.subtitle {
+    font-size: 25px;
     text-align: center;
     padding: 10px 0;
     font-weight: 600;
 }
 
-#p-history, #p-history2 {
+.parrafos {
     font-size: 16px;
     text-align: justify;
     padding: 14 px 0;
+}
+
+footer {
+    background-color: rgb(52, 52, 52);
+    border-radius: 12px;
 }
 
 #info-footer {
@@ -56,9 +49,4 @@ img {
     color: white;
     text-align: center;
     padding: 14 px 1;
-}
-
-#final-footer {
-    background-color: rgb(52, 52, 52);
-    border-radius: 12px;
 }
