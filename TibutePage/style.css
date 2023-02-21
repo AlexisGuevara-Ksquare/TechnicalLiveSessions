@@ -1,0 +1,64 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+#main {
+    background-color: rgb(52, 52, 52);
+    border-radius: 12px;
+}
+
+#title, #nameArtist {
+    text-align: center;
+    color: white;
+}
+
+#description {
+    text-align: center;
+}
+
+#img-div {
+    background-color: black;
+    padding: 20px;
+}
+
+img {
+    max-width: 35%;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 14px;
+}
+
+#subtitle, #subtitle2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+#p-history, #p-history2 {
+    font-size: 16px;
+    text-align: justify;
+    padding: 14 px 0;
+}
+
+#info-footer {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 14 px 1;
+}
+
+#final-footer {
+    background-color: rgb(52, 52, 52);
+    border-radius: 12px;
+}
