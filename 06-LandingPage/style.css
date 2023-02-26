@@ -1,0 +1,68 @@
+  
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+}
+
+/* lado izquiero */
+section .left {
+    width: 60vw;
+    padding: 15% 3%;
+}
+
+section .input {
+    width: 95%;
+    padding: 10px 14px;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* fin lado izquiero */
+
+/* lado derecho */
+section .right {
+    position: relative;
+    width: 90%;
+    height: 100vh;
+}
+
+section .right img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* tarjeta */
+.card {
+    position: relative; 
+    font-weight: 400;
+    top: 450px;
+    left: 30%;
+    color: #fff;
+    max-width: 490px;
+    padding: 20px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card blockquote {
+    font-size: 18px;
+}
+
+.card .name {
+    font-size: 16px;
+}
+/* fin tarjeta */
+
+/* fin lado derecho */
