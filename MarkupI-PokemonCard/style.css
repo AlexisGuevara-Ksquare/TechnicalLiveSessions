@@ -1,0 +1,85 @@
+
+body {
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 71vh 100px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer';
+    background-color: rgb(161, 231, 194);
+}
+
+.item-1 {
+    padding-left: 20px;
+    grid-area: header;
+}
+
+.item-2 {
+    padding-left: 20%;
+    padding-top: 50%;
+    grid-area: aside;
+}
+
+.item-3 {
+    grid-area: main;
+}
+
+.item-4 {
+    padding-left: 3%;
+    grid-area: footer;
+}
+
+.subMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    position:fixed;   
+    padding-top: 120px;
+}
+
+.right {
+    position:fixed;    
+    padding-left: 50%;
+    padding-top: 120px;
+}
+
+.number{
+    font-weight: bold;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.infoTitle {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.infoValue {
+    font-size: 10px;
+}
+
+.baseStats {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sFooter {
+    display: inline-block;
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
