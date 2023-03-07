@@ -4,4 +4,4 @@
 - [Blog Post](https://alexisguevara-ksquare.github.io/TechnicalLiveSessions/BlogPost/)
 - [Survey Form](https://alexisguevara-ksquare.github.io/TechnicalLiveSessions/SurveyForm/)
 - [Landing Page](https://alexisguevara-ksquare.github.io/TechnicalLiveSessions/LandingPage/)
-- [Simon Game](https://alexisguevara-ksquare.github.io/TechnicalLiveSessions//)
+- [Simon Game](https://alexisguevara-ksquare.github.io/project1_simon/)
