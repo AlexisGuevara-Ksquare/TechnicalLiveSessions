@@ -1,0 +1,158 @@
+
+body {
+    padding: 10px 350px 10px 350px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Stepper */
+.stepper-container {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Stepper items */
+.stepper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+/* Side title in stepper */
+.step-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+/* Number in stepper */
+.step-number {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.step.active .step-number {
+    background-color: #007bff;
+}
+/* End Stepper */
+
+/* 3 rows of dropwon */
+.breakfast, .lunch, .dinner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Drop down menu */
+.dropdown {
+    min-width: 15em;
+    position: relative;
+    margin: 2em;
+}
+
+.dropdown * {
+    box-sizing: border-box;
+}
+
+/* Width of food dropdown */
+.item-1, .item-2, .item-3 {
+    width: 50%;
+}
+
+/* Color of label dropdown */
+.dropdown > label {
+    color: #7c7c7c;
+}
+
+/* Dropdown config */
+.select {
+    background: #ffffff;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+.select:hover {
+    background: #e0e0e0;
+}
+
+/* Arrow in the dropdown */
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #000000;
+    transition: 0.3s;
+}
+
+/* End drop down menu */
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Back button config */
+.back {
+    font-weight: bold;
+    background: #ffffff;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer; 
+}
+
+/* continue button config */
+.continue {
+    font-weight: bold;
+    background: #1E90FF;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+/* End  button */

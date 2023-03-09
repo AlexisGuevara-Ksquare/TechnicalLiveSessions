@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Link to Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Markup III - Stepper</title>
+</head>
+<body>
+    
+    <header>
+        <!-- Stepper -->
+        <div class="stepper-container">
+            <div class="stepper">
+              <div class="step active">
+                <div class="step-number">1</div>
+                <div class="step-title">Cabin</div>
+              </div>
+              <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-title">Meals</div>
+              </div>
+              <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-title">Upgrades</div>
+              </div>
+              <div class="step">
+                <div class="step-number">4</div>                <div class="step-title">Payment</div>
+              </div>
+            </div>
+        </div>
+
+        
+    </header>
+
+    <main class="main-container">
+
+        <div class="container">
+
+            <!-- Info of forms -->
+            <div class="description">
+                <h2>Meal Preferences</h2>
+                <p>Your flight comes with breakfast, lunch, and dinner. Please make your selection below.</p>
+                <p>Change to your order can be made up to 48 hours before your flight.</p>
+            </div>
+
+            <div class="breakfast">
+                <!-- Dropdown menu breakfast -->
+                <div class="dropdown item-1">
+                    <label for="">Breakfast</label>
+                    <div class="select">
+                        <span class="selected">Sausage Egg Scramble Bowl</span>
+                        <div class="caret"></div>
+                    </div>                    
+                </div>
+        
+                <!-- Dropdown menu breakfast - Drink -->
+                <div class="dropdown">
+                    <label for="">Drink</label>
+                    <div class="select">
+                        <span class="selected">Coffee</span>
+                        <div class="caret"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="lunch">
+                <!-- Dropdown menu lunch -->
+                <div class="dropdown item-2">
+                    <label for="">Lunch</label>
+                    <div class="select">
+                        <span class="selected">Club Sandwich Meal</span>
+                        <div class="caret"></div>
+                    </div>
+                </div>
+        
+                <!-- Dropdown menu lunch - Drink -->
+                <div class="dropdown">
+                    <label for="">Drink</label>
+                    <div class="select">
+                        <span class="selected">Cranberry Juice</span>
+                        <div class="caret"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="dinner">
+                <!-- Dropdown menu dinner -->
+                <div class="dropdown item-3">
+                    <label for="">Dinner</label>
+                    <div class="select">
+                        <span class="selected">Wagyu Beef Sliders Meal</span>
+                        <div class="caret"></div>
+                    </div>
+                </div>
+        
+                <!-- Dropdown menu dinner - Drink -->
+                <div class="dropdown">
+                    <label for="">Drink</label>
+                    <div class="select">
+                        <span class="selected">Red Wine</span>
+                        <div class="caret"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Back and continue buttons -->
+        <div class="checker">
+            <label for="">
+                <input type="checkbox" name="check"> I'd like dessert, too!
+            </label>
+        </div>
+        <div class="buttons">
+            <button class="back">Back</button>
+            <button class="continue">Continue</button>
+        </div>
+        
+    </main>
+            
+    
+</body>
+</html>
