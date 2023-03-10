@@ -1,0 +1,95 @@
+
+/* Main container */
+.container {
+    margin: auto;
+    margin-top: 4%;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    width: 57%;
+    align-content: center;
+    align-items: center;
+}
+
+/* Received chat */
+/* Circule picture */
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.chat-page {
+    padding: 0 0 50px 0;
+}
+
+/* Message box container */
+.msg-inbox {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.chats {
+    padding: 30px 15px 0 30px;
+}
+
+/* Image size */
+.received-chats-img {
+    display: inline-block;
+    width: 30px;
+    float: left;
+}
+
+/* Width of green chat */
+.received-msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 47%;
+}
+
+.received-msg-inbox {
+    width: 57%;
+}
+
+.received-msg-inbox p {
+    background: #b3f5cb8b none repeat scroll 0 0;
+    border-radius: 3px;
+    color: black;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+}
+
+.time {
+    color: #777;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+    float: right;
+}
+/* End received chat */
+
+/* Outgoing chat */
+.outgoing-chats {
+    overflow: hidden;
+    margin: 26px 20px;
+}
+
+/* Blue container */
+.outgoing-chats-msg p{
+    background: #bddbfb none repeat scroll 0 0;
+    border-radius: 3px;
+    color: black;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.outgoing-chats-msg {
+    float: left;
+    width: 27%;
+    margin-left: 45%;
+}
+/* End outgoing chat */
