@@ -1,0 +1,226 @@
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+/* Navbar */
+.header {
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+header {
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.icon-profile {
+    display: flex;
+}
+
+/* Size of icon navbar */
+.navbar-shoppingcard img{
+    height: 30px;
+    width: auto;
+    padding-top: 20%;
+    padding-right: 25px;
+}
+
+/* Photo Navbar */
+.header .logo img {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+/* Menu options */
+.header .nav-links {
+    list-style: none;
+}
+
+.store-nav {
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-items {
+    color: rgb(105, 105, 105);
+}
+
+/* Options in row */
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+
+/* Main container */
+.main-wrapper{
+    min-height: 85vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0 auto;
+}
+
+/* Split screen */
+.product-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    border-radius: 3px;
+    column-gap: 10px;
+}
+
+/*  */
+.img-container img{
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Container for 5 photos */
+.img-container div{
+    border-radius: 3px;
+    margin: 0 4px 8px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/* Cursor pass and change opacity and border */
+.img-container div:hover{
+    border: 2px solid rgba(252, 160, 175, 0.7);
+
+    border-color: rgb(255, 145, 163);
+    opacity: 0.5;
+}
+
+.img-container div img{
+    width: 80px;
+    cursor: pointer;
+}
+
+/* Right side */
+.product-div-right{
+    padding: 20px;
+}
+.product-div-right span{
+    display: block;
+}
+
+.store-name-product {
+    color: rgb(244, 178, 72);
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.product-name {
+    font-size: 34px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.product-description {
+    line-height: 2;
+    color: rgb(130, 130, 130);
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.product-price {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.product-price-retail {
+    color: rgb(130, 130, 130);
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.wrapper-bttns{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* contador */
+.wrapper {
+    /* height: 50px; */
+    min-width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(245, 245, 245);
+    border-radius: 12px;
+}
+
+.wrapper span {
+    width: 50%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.minus, .plus  {
+    font-weight: bold;
+    font-size: 12px;
+    color: #FF9F00;
+    cursor: pointer;
+}
+
+/* Add cart button */
+.addCart-btn{
+    background-color: #FF9F00;
+    border: 2px solid #FF9F00;
+    margin-right: 8px;
+    border-radius: 10px;
+    min-width: 60%;
+
+}
+
+.wrapper-bttns button{
+    display: inline-block;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 15px 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.addCart-btn:hover{
+    background-color: #fff;
+    color: #FF9F00;
+}
